@@ -51,7 +51,7 @@ namespace OkayuLoader.Services
             File.WriteAllText(pathConfigFile, jsonConfig);
             using (var client = new WebClient())
             {
-                client.DownloadFile("http://osuokayu.moe/static/Osu!Patcher.zip", userFolderPath + "\\.OkayuLoader\\Osu!Patcher.zip");
+                client.DownloadFile("http://okayu.click/static/Osu!Patcher.zip", userFolderPath + "\\.OkayuLoader\\Osu!Patcher.zip");
                 System.IO.Compression.ZipFile.ExtractToDirectory(userFolderPath + "\\.OkayuLoader\\Osu!Patcher.zip", userFolderPath + "\\.OkayuLoader");
                 File.Delete(userFolderPath + "\\.OkayuLoader\\Osu!Patcher.zip");
             }

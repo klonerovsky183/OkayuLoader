@@ -56,7 +56,7 @@ namespace OkayuLoader.Pages
 
             var osuProcessHandler = new Process();
             osuProcessHandler.StartInfo.FileName = osuFolderPath + "\\osu!.exe";
-            osuProcessHandler.StartInfo.Arguments = "-devserver osuokayu.moe";
+            osuProcessHandler.StartInfo.Arguments = "-devserver okayu.click";
             osuProcessHandler.Start();
 
             if (ToggleSwitchPatcher.IsOn == true)

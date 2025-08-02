@@ -1,5 +1,5 @@
 # OkayuLoader
- Loader for osuokayu.moe!
+ Loader for okayu.click!
 
 ![Platform](https://img.shields.io/badge/Windows_10+-0078D6?style=for-the-badge&logo=windows&logoColor=white)
 ![Framework](https://img.shields.io/badge/WinUi3-444444?style=for-the-badge&logo=windowsterminal&logoColor=white)

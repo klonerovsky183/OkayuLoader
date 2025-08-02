@@ -12,7 +12,7 @@ namespace OkayuLoader.Tools
             {
                 if (i == 140)
                 {
-                    lines[i] = "CredentialEndpoint = osuokayu.moe";
+                    lines[i] = "CredentialEndpoint = okayu.click";
                 }
                 if (i == 141)
                 {
